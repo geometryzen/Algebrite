@@ -1,17 +1,18 @@
 node_modules
 bazel-out
 .idea
+.nyc_output/
+dump.txt
 
 **/.DS_Store
 
-dist/*
-!dist/algebrite.js
-!dist/algebrite.bundle-for-browser-min.js
-!dist/algebrite.bundle-for-browser.js
+coverage/
+docs/
+dist/
 !dist/index.js
 
 !dist/runtime
-!dist/sources
+!dist/src
 
 !dist/runtime/*
-!dist/sources/*
+!dist/src/*
